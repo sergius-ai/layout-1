@@ -18,7 +18,7 @@ body {
 header {
     width: 1920;
     height: 900px;
-    background-image:url(bgc.svg);
+    background-image:url(../images/bgc.svg);
     color: #FFFFFF;
 }
 .contact{
@@ -76,9 +76,7 @@ nav a {
     padding: 15px 30px;
     background: #99862A;
 }
-main {
 
-}
 .text {
     padding-top: 150px;
     width: 100%;
@@ -219,7 +217,7 @@ main {
 .form {
     color: blanchedalmond;
     width: auto;
-    height: 800px;
+    height: 840px;
     background: #282828;
 }
 .form .conteiner {
@@ -315,7 +313,47 @@ main {
     justify-content: center;
 }
 footer {
+    color: #FFFFFF;
     width: auto;
-    height: 220px;
+    height: auto;
     background: #998431;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer table {
+    width: 1110px;
+    margin: 0 auto;
+    
+    border-collapse: collapse;
+    border: none;
+}
+footer table tr{
+    height: 60px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #ffffff;
+
+}
+footer table tr td{
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer table tr td img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer table tr:last-child td{
+    width: 25%;
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #ffffff;
+}
+footer table tr:last-child td:last-child {
+    border-right: none;
+    width: 100%;
+    
+}
+footer table tr:last-child td:first-child {
+    border-left: none;
+    
 }
